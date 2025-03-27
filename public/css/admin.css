@@ -1,0 +1,10 @@
+* { padding:0; margin:0 ; box-sizing: border-box;}
+a {text-decoration: none; }
+.container { width: 1200px; margin:auto}
+.container > header {height: 70px; background: #198754; color:white; position: relative;}
+.container > main { min-height: 150px;}
+.container > header > h2 { font-size: 24px; text-transform: uppercase; padding: 10px}
+.container > header > ul { list-style: none; display: flex; position: absolute; bottom: 0; right:0 }
+.container > header > ul > li {  text-align: center;  font-size: 0.9em; padding: 0 5px} 
+.container > header > ul > li > a { line-height: 45px; color: yellow; font-weight: 600; }
+.container > header > ul > li > a:hover { color: cyan}

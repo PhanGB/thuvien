@@ -1,0 +1,21 @@
+* { padding:0; margin:0 ; box-sizing: border-box;}
+a { text-decoration: none;}
+.container { width: 1200px; margin:auto}
+.container > header { 
+   height: 90px; background: darkcyan; color:white; padding: 10px; position:relative}
+.container > footer { min-height: 45px; background:darkcyan; color:white; padding: 10px}
+.container > main { min-height: 200px;}
+.container > nav  { background: orange; }
+.container > nav >  ul { list-style: none; display: flex; height: 45px;}
+.container > nav > ul > li {  text-align: center; padding: 0 5px; font-size: 1.2em;} 
+.container > nav > ul > li > a { line-height: 45px; color: white; font-weight: 600;}
+.container > nav > ul > li > a:hover { color: cyan}
+#frmsearch { position: absolute; top:10px; right: 10px; }
+#frmsearch input { width: 120px; padding: 4px; outline:none}
+#frmsearch button { padding: 4px 10px; outline:none; }
+#userinfo { position: absolute; bottom: 10px; left: 10px; color: yellow; }
+#thong_bao {
+  width: 60%; text-align: center; font-size: 1.5em; margin:50px auto; padding: 20px;
+  border:2px solid darkcyan; border-radius: 5px; box-shadow: 1px 1px 1px darkblue;    
+}
+
